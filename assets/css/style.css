@@ -1,6 +1,30 @@
 body{
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-image: url('../images/pattern.png');
     background-repeat: repeat;
+    background: rgba(255, 0, 0, 0.486);
+}
+
+@media (min-width: 576px) {
+    body {
+        background: rgba(255, 166, 0, 0.534);
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background: rgba(255, 255, 0, 0.438);
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        background: rgba(0, 128, 0, 0.404);
+    }
+}
+
+span {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
 }
