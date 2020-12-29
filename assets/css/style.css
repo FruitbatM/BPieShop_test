@@ -28,3 +28,7 @@ span {
     height: 150px;
     display: inline-block;
 }
+
+body {
+    background: none;
+}
